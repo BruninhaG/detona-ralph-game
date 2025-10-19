@@ -7,7 +7,7 @@ O objetivo é clicar no Ralph quando ele aparecer nas janelas e acumular a maior
 - Grade 3x3 de janelas com aparição aleatória do personagem.
 - Sistema de pontuação e níveis (aumenta conforme pontos).
 - Sons gerados via **WebAudio API** (não são necessários arquivos externos).
-- Animações e visual divertido, prontos para mostrar no seu portfólio.
+- Animações e visual divertido.
 - Configuração da duração do jogo (padrão: 60s).
 
 ## Estrutura do projeto
