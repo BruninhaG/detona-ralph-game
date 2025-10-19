@@ -10,11 +10,6 @@ O objetivo é clicar no Ralph quando ele aparecer nas janelas e acumular a maior
 - Animações e visual divertido, prontos para mostrar no seu portfólio.
 - Configuração da duração do jogo (padrão: 60s).
 
-## Como rodar
-1. Baixe ou clone este repositório.
-2. Abra o arquivo `index.html` no seu navegador (duplo clique).
-3. Ajuste a duração, clique em **Iniciar** e divirta-se!
-
 ## Estrutura do projeto
 ```
 detona-ralph-game/
@@ -24,6 +19,11 @@ detona-ralph-game/
 ├── script.js
 └── README.md
 ```
+
+## Como rodar
+1. Baixe ou clone este repositório.
+2. Abra o arquivo `index.html` no seu navegador (duplo clique).
+3. Ajuste a duração, clique em **Iniciar** e divirta-se!
 
 ## Autora
 **Bruna Guimarães Santiago**
