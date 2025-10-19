@@ -26,4 +26,4 @@ detona-ralph-game/
 3. Ajuste a duração, clique em **Iniciar** e divirta-se!
 
 ## Autora
-**Bruna Guimarães Santiago**
+**Bruna Santiago Guimarães**
