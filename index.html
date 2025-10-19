@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Detona Ralph - Mini Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="img/arcade-machine.png" type="image/x-icon">
+</head>
+<body>
+  <main class="container">
+    <h1>🎮 Detona Ralph</h1>
+    <p class="subtitle">Clique no Ralph quando ele aparecer nas janelas. Acumule pontos antes do tempo acabar!</p>
+
+    <section class="hud">
+      <div class="controls">
+        <label for="duration">Duração (seg):</label>
+        <input id="duration" type="number" min="10" max="300" value="60" />
+        <button id="startBtn">Iniciar</button>
+        <button id="restartBtn" disabled>Reiniciar</button>
+      </div>
+      <div class="status">
+        <div>Tempo: <span id="time">60</span>s</div>
+        <div>Pontos: <span id="score">0</span></div>
+        <div>Nível: <span id="level">1</span></div>
+      </div>
+    </section>
+
+    <section class="game-area" id="game">
+      <!-- 3x3 grid of windows -->
+      <div class="grid" id="grid">
+        <!-- windows inserted by JS -->
+      </div>
+    </section>
+
+    <section class="footer">
+      <p>Feito por Bruna Guimarães Santiago • Projeto para portfolio</p>
+    </section>
+  </main>
+
+  <template id="window-template">
+    <div class="window">
+      <div class="window-frame">
+        <div class="window-glass"></div>
+      </div>
+      <div class="ralph" aria-hidden="true">
+        <img src="img/ralph-animated.gif" alt="Ralph" />
+      </div>
+    </div>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
