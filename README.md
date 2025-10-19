@@ -3,14 +3,14 @@
 Mini jogo inspirado no filme *Detona Ralph*, desenvolvido com **HTML**, **CSS** e **JavaScript**.  
 O objetivo é clicar no Ralph quando ele aparecer nas janelas e acumular a maior pontuação antes do tempo acabar.
 
-## Funcionalidades
+## 🛠️ Funcionalidades
 - Grade 3x3 de janelas com aparição aleatória do personagem.
 - Sistema de pontuação e níveis (aumenta conforme pontos).
 - Sons gerados via **WebAudio API** (não são necessários arquivos externos).
 - Animações e visual divertido.
 - Configuração da duração do jogo (padrão: 60s).
 
-## Estrutura do projeto
+## 🧩 Estrutura do projeto
 ```
 detona-ralph-game/
 ├── /img
@@ -20,10 +20,10 @@ detona-ralph-game/
 └── README.md
 ```
 
-## Como rodar
+## ▶️ Como rodar
 1. Baixe ou clone este repositório.
 2. Abra o arquivo `index.html` no seu navegador (duplo clique).
 3. Ajuste a duração, clique em **Iniciar** e divirta-se!
 
-## Autora
+## 🙎🏻 Autora
 **Bruna Santiago Guimarães**
